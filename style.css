@@ -15,7 +15,8 @@ h1 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 12px;
+    
 }
 
 
@@ -95,6 +96,11 @@ button {
 img {
     border-radius: 25px;
     box-shadow:  1px 2px 7px black;
+}
+
+.rat-imgs {
+    width: 200px;
+    height: 171px;
 }
 
 .logo {
