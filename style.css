@@ -10,13 +10,20 @@ body {
 }
 
 h1 {
-    font-size: 72px;
-    
+    font-size: 69px;
+    margin-bottom: 0em;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
     
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: -29px;
 }
 
 
@@ -25,22 +32,23 @@ p {
     color: #FCF7F4;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 150px;
+    gap: 110px;
     padding-top: .5em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
     gap: 45em;
-  
-    
 }
 
-.footer {
-    background-color: ;
+.Footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #89B9D3;
+    color: #FCF7F4;
+    padding: 2.5em;
 }
 
 h4 {
@@ -62,25 +70,35 @@ h4 {
     max-width: 900px;
     display: flex;
     flex-direction: column;
-    padding: 0;
-    
 }
 
 
 button {
-    max-width: 130px;
+    max-width: 120px;
+    height: 50px;
     font-size: 25px;
-    box-shadow:  1px 2px 7px black;
+    box-shadow:  1px 2px 7px grey;
     background-color: #44A1D3;
     border: none;
+    border-radius: 15px;
+    color: #FCF7F4;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FCF7F4;
+    color: #89B9D3;
+    transition:color .05s ease-out, background .05s ease-in;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
-    padding: 2em;
+    font-size: 35px;
+    color: #89B9D3;
+    gap: 10px;
+    padding: 1em;
 }
 
 .cards {
@@ -88,18 +106,20 @@ button {
 }
 
 .info-card {
-    max-width: 540px;
+    max-width: 340px;
+    text-align: center;
+    padding: 2em;
+    color: #425864;
 }
-
 
 img {
     border-radius: 25px;
-    box-shadow:  1px 2px 7px black;
+    box-shadow:  1px 2px 7px grey;
 }
 
 .rat-imgs {
-    width: 200px;
-    height: 171px;
+    width: 270px;
+    height: 241px;
 }
 
 .logo {
@@ -112,6 +132,51 @@ img {
     height: 72px;
     box-shadow: none;
 }
+
+.Quote {
+    text-align: center;
+    background-color: rgb(255, 212, 237, 15%);
+    color: #746161;
+    padding: 9em;
+}
+
+.rat-quote {
+    font-size: 48px;
+    font-style: italic;
+    text-shadow:  1px 2px 7px grey;
+}
+
+.Container-CTA {
+    padding: 9em;
+    color: #FCF7F4;
+}
+
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFB8D7;
+    box-shadow:  1px 2px 7px grey;
+    padding-left: 8em;
+    padding-right: 10em;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.CTA-button {
+    background-color: #d197b8;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.Container-CTA p {
+    font-size: 24px;
+    font-style: italic;
+}
+
 
 ul {
     display: flex;
@@ -131,4 +196,5 @@ a, a:link, a:visited {
 
 a:hover {
     color: grey;
-} 
+}
+
